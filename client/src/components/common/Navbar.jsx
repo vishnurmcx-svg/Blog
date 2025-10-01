@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className="bg-gray-800 flex justify-between  items-center h-18 max-w-full  px-10 text-white">
       {/* Logo */}
-      <h1 className=" text-3xl font-bold text-[#00df9a]">MERN BLOG.</h1>
+      <h1 className="text-3xl font-bold text-[#00df9a]">MERN BLOG.</h1>
 
       <div className="rightArea flex items-center ">
         {/* Serach  */}
