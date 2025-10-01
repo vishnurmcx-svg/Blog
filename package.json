@@ -2,7 +2,6 @@
   "name": "mern-blog",
   "version": "1.0.0",
   "description": "",
-  "types": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon api/index.js",
@@ -15,7 +14,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/vishnurmcx-svg/Blog/issues"
   },
