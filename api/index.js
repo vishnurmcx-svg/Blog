@@ -4,8 +4,10 @@ const app = express();
 require("dotenv").config();
 port = process.env.PORT || 5000;
 
+
 const UserRoutes = require("./routes/user.route");
 
+// app.use('/api/user', UserRoutes)
 
 // console.log(process.env)
 main().then(() => console.log("Database is running..!")).catch((err) => console.log(err));
